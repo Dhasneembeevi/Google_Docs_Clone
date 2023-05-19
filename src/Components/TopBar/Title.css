@@ -1,0 +1,49 @@
+.top-title {
+  display: flex;
+  align-items: center;
+  margin-left: 1%;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #ddd;
+  height: 7vh;
+  padding-top: 3%;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-left: 1%;
+  margin-bottom: 5%;
+  cursor: pointer;
+}
+
+.edit-input[type="text"] {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-left: 1%;
+  margin-bottom: 5%;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.edit-input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 5px;
+  color: #777;
+}
+
+.edit-input:hover {
+  color: #0b0c0e;
+}
+
+.google_doc {
+  height: 10vh;
+  margin-bottom: 3%;
+}

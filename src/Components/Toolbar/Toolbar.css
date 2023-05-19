@@ -1,0 +1,68 @@
+.tool-box {
+  background-color: #edf2fa;
+  border-radius: 20px;
+  height: 35px;
+  width: 300%;
+  margin-top: -220%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 10px;
+  box-sizing: border-box;
+}
+
+.formatting-options button {
+  height: 25px;
+  border: none;
+  border-radius: 3px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.tool-box button:hover {
+  height: 25px;
+  background-color: black;
+  color: white;
+}
+
+.redo-button {
+  height: 25px;
+  border: none;
+  background-color: transparent;
+}
+
+.undo-button {
+  height: 25px;
+}
+
+.text-editor {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  padding: 20px;
+  min-height: 300px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 600px) {
+  .tool-box {
+    border-radius: 10px;
+  }
+
+  .formatting-options {
+    justify-content: center;
+    margin-bottom: 0;
+  }
+
+  .formatting-options button,
+  .redo-button,
+  .undo-button {
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+}
